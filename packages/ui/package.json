@@ -1,9 +1,9 @@
 {
-  "name": "babel-ui",
+  "name": "@babel2017/ui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "babel-lib": "^0.1.0",
+    "@babel2017/lib": "^0.1.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.2"
@@ -11,21 +11,12 @@
   "scripts": {
     "start": "cd packages/ui && react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "test": "react-scripts test"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
-  }
+  ]
 }

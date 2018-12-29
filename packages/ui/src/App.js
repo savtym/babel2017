@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { themr} from 'babel-lib';
+import { themr} from '@babel2017/lib';
 import logo from './logo.svg';
 import './App.css';
 

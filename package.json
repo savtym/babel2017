@@ -6,7 +6,7 @@
     "start": "cd packages/ui && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "bootstrap": "lerna exec npm install"
   },
   "workspaces": {
     "packages": [

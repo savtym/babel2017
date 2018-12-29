@@ -1,17 +1,15 @@
 {
-  "name": "babel-lib",
+  "name": "@babel2017/lib",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react-css-themr": "^2.1.2"
   },
   "scripts": {},
-  "src-index": "src/index.ts",
-  "main": "dist/cjs/index.js",
-  "module": "dist/index.js",
-  "peerDependencies": {
-    "react": "*"
-  },
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
   "engines": {
     "node": "^8"
   }
